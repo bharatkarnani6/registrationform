@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body style="background:cadetblue;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png" width="30" height="30" alt="">
+  </a>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PortFolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      Welcome To Maheswari Kre@tion
+    </span>
+  </div>
+</nav>
+    <center>
+      <div class="jumbotron shadow-lg p-3 mb-5 rounded" style="width: 430px; margin: 70px; background:aliceblue;">
+        <div class="registration">
+          <h3>Registration Form</h3>
+          <p>Create your account. It's free and only takes a miniute. </p>
+          <hr>
+          <form action="data.php" method="post">
+            <div class="row form-group">
+                <div class="col">
+                  <input type="text" class="form-control" name="fname" placeholder="First name*" required>
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" name="lname" placeholder="Last name*" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="E-mail*" required>
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="inputPassword" name="pass" placeholder="Password*" required>
+              </div>
+              <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="City">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="State">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Zip Code">
+                  </div>
+                </div><br>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input " type="checkbox" value="" id="invalidCheck3" required>
+                    <label class="form-check-label" for="invalidCheck3">
+                      I accept the <a href="#">Terms of use</a> & <a href="#">Privacy Policy</a>
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Register</button>
+        </form>
+        </div>
+      </div>
+    </div>
+
+    </center>
+  </body>
+</html>
+>
